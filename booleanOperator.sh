@@ -33,3 +33,24 @@ then
 else
 	echo "a 大于 15 或 b 大于15 为 false"
 fi
+
+
+
+## 逻辑运算符
+
+# && 逻辑的and
+if [[ $a -lt 100 && $b -gt 100 ]]
+then 
+	echo "返回true"
+else
+	echo "返回false"
+fi
+
+# || 逻辑的or
+if [[ $a -lt 100 || $b -gt 100 ]]
+then
+        echo "返回true"
+else
+        echo "返回false"
+fi
+
